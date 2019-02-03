@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    border: 1px solid;
+}
+
+ul {
+    list-style: none;
+    list-style-position: inside;
+    padding: 0;
+}
+
+.page-frame {
+    padding: 10px;
+
+    .main-content-frame {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .frame-sidebar {
+        padding: 10px;
+        width: 20%;
+    }
+
+    .main-display {
+        width: 100%;
+        padding: 10px;
+
+        .video-frame {
+            border: 0;
+        }
+    }
+}
